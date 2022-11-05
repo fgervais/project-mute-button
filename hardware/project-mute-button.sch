@@ -412,4 +412,56 @@ F 3 "~" H 2150 3750 50  0001 C CNN
 	1    2150 3750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 636A1891
+P 4500 2750
+F 0 "H1" H 4600 2750 50  0000 L CNN
+F 1 "MountingHole" H 4600 2705 50  0001 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 4500 2750 50  0001 C CNN
+F 3 "~" H 4500 2750 50  0001 C CNN
+	1    4500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 636A2ED1
+P 4850 2750
+F 0 "H3" H 4950 2750 50  0000 L CNN
+F 1 "MountingHole" H 4950 2705 50  0001 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 4850 2750 50  0001 C CNN
+F 3 "~" H 4850 2750 50  0001 C CNN
+	1    4850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 636A635D
+P 4500 2950
+F 0 "H2" H 4600 2950 50  0000 L CNN
+F 1 "MountingHole" H 4600 2905 50  0001 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 4500 2950 50  0001 C CNN
+F 3 "~" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 636A6363
+P 4850 2950
+F 0 "H4" H 4950 2950 50  0000 L CNN
+F 1 "MountingHole" H 4950 2905 50  0001 L CNN
+F 2 "MountingHole:MountingHole_5mm" H 4850 2950 50  0001 C CNN
+F 3 "~" H 4850 2950 50  0001 C CNN
+	1    4850 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 2600 0    50   ~ 0
+PCB to case
+NoConn ~ 1300 1400
+NoConn ~ 1300 1500
+NoConn ~ 1300 1600
+NoConn ~ 2200 1100
+NoConn ~ 2200 1200
+NoConn ~ 2200 1300
 $EndSCHEMATC
