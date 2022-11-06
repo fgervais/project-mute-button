@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 34)
+    (drawings 35)
     (tracks 65)
     (zones 0)
     (modules 16)
@@ -698,6 +698,9 @@
     )
   )
 
+  (gr_text "François Gervais\n6 novembre 2022\nv1.0.0" (at 78.65 78.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (gr_arc (start 38.35 60.15) (end 33.85 60.15) (angle -180) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 100.85 60.15) (end 103.75 60.15) (layer Edge.Cuts) (width 0.05) (tstamp 6365CD5A))
   (gr_line (start 33.85 60.15) (end 30.95 60.15) (layer Edge.Cuts) (width 0.05) (tstamp 6365CD59))
@@ -799,7 +802,7 @@
   (segment (start 94.175 73.3125) (end 97.35 70.1375) (width 1) (layer F.Cu) (net 15))
   (segment (start 94.175 73.35) (end 94.175 73.3125) (width 1) (layer F.Cu) (net 15))
 
-  (zone (net 6) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 6) (net_name GND) (layer B.Cu) (tstamp 6366A079) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
