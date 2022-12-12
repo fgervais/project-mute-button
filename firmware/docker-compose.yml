@@ -1,0 +1,17 @@
+services:
+  button:
+    build:
+      context: .
+    image: project-mute-button
+    environment:
+      - BLINKA_MCP2221=1
+      # Negative number = Do not reset on device init
+      - BLINKA_MCP2221_RESET_DELAY=-1
+      - HOME=/tmp
+    user: ${UID:-1000}:${GID:-1000}
+    working_dir: /app
+    devices:
+      - /dev/bus/usb
+    volumes:
+      - .:/app
+      - /etc/localtime:/etc/localtime:ro
