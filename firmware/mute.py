@@ -6,10 +6,10 @@ import logging
 import argparse
 
 
-button = digitalio.DigitalInOut(board.G0)
+button = digitalio.DigitalInOut(board.G1)
 button.direction = digitalio.Direction.INPUT
 
-toggle_switch = digitalio.DigitalInOut(board.G1)
+toggle_switch = digitalio.DigitalInOut(board.G0)
 toggle_switch.direction = digitalio.Direction.INPUT
 
 leds = digitalio.DigitalInOut(board.G2)
