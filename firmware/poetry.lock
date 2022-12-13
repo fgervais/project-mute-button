@@ -2,7 +2,7 @@
 
 [[package]]
 name = "Adafruit-Blinka"
-version = "6.18.1.dev200"
+version = "6.18.1.dev201"
 description = "CircuitPython APIs for non-CircuitPython versions of Python such as CPython on Linux and MicroPython."
 category = "main"
 optional = false
@@ -20,7 +20,7 @@ pyftdi = ">=0.40.0"
 type = "git"
 url = "https://github.com/ezio-melotti/Adafruit_Blinka.git"
 reference = "multiple-mcp2221-improved"
-resolved_reference = "505be77e20eab2e9960de56961ff3fb03e19768f"
+resolved_reference = "c8d9318554ec17ba39174f4738dae90403b28467"
 
 [[package]]
 name = "adafruit-circuitpython-busdevice"
