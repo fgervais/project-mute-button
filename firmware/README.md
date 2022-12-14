@@ -1,5 +1,3 @@
-# Mute Button
-
 ## Run
 
 ```bash
