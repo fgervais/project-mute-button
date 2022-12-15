@@ -10,8 +10,7 @@ services:
       - HOME=/tmp
     user: ${UID:-1000}:${GID:-1000}
     working_dir: /app
-    devices:
-      - /dev/bus/usb
+    privileged: true
     volumes:
       - .:/app
       - /etc/localtime:/etc/localtime:ro
