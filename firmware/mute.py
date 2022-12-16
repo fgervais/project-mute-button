@@ -31,10 +31,10 @@ def mute():
     leds_on()
     muted = True
 
-def unmute():
+def unmute(force=False):
     global muted
 
-    if not muted:
+    if not force and not muted:
         return
 
     logging.info("unmuting")
@@ -68,7 +68,7 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S')
 
 # Synchronize local and actual state
-unmute()
+unmute(force=True)
 
 try:
     while True:
