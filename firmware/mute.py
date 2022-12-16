@@ -51,10 +51,10 @@ def toggle_switch_on():
     return toggle_switch.value == False
 
 def leds_on():
-    leds.value = False
+    leds.value = True
 
 def leds_off():
-    leds.value = True
+    leds.value = False
 
 
 parser = argparse.ArgumentParser(description='Mute/unmute microphone.')
